@@ -1,0 +1,16 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Example message</title>
+</head>
+<body>
+<form method="post" action="/note-details" th:object="${note}">
+    <p>Name: <input type="text" th:field="*{name}"></p>
+    <p>Details: <input type="text" th:field="*{text}"></p>
+    <button type="submit">Submit!!!</button>
+</form>
+
+
+
+</body>
+
+</html>

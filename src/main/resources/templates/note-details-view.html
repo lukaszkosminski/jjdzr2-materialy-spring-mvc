@@ -1,0 +1,14 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Example message</title>
+</head>
+<body>
+
+<p><b>Name:</b> <span th:text="${note.name}"></span></p>
+<p><b>Details:</b> <span th:text="${note.text}"></span></p>
+
+<a href="/create-note-details">Update details</a>
+
+</body>
+
+</html>
